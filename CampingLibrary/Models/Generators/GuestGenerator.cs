@@ -9,7 +9,7 @@ public static class GuestGenerator
         List<IGuest> guests = new List<IGuest>();
         for (int i = 0; i < amount; i++)
         {
-            guests.Add(new Guest() { GuestId = GuestGenerator.GenerateId(), Firstname = "Klaus", Lastname = "Knudsen"});
+            guests.Add(new Guest() { GuestId = GenerateId(), Firstname = "Klaus", Lastname = "Knudsen"});
         }
 
         return guests;
